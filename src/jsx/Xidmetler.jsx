@@ -165,7 +165,7 @@ function Xidmetler() {
       : iptvChannels;
 
   return (
-    <section className="services-section" id="xidmetler">
+    <section className="services-section" id="Xidmetler">
       {/* SERVICES */}
       {viewMode === "services" && (
         <>

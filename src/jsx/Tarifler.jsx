@@ -52,6 +52,13 @@ function Tarifler() {
     },
   ];
 
+   const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const internetTvTariffs = [
     {
       id: 1,
@@ -105,12 +112,12 @@ function Tarifler() {
     activeTab === "internet" ? internetTariffs : internetTvTariffs;
 
   const handleJoinClick = () => {
-  const target = document.getElementById("melumat");
+  const target = document.getElementById("Melumat");
   if (target) target.scrollIntoView({ behavior: "smooth" });
 };
 
   return (
-    <section className="tariffs-section" id="tarifler">
+    <section className="tariffs-section" id="Tarifler">
       <div className="tariffs-wrapper">
 
         <h2 className="tariffs-title-pill">{t("tariffs.choose")}</h2>
