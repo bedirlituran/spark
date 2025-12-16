@@ -4,7 +4,6 @@ import "./App.css";
 import Navbar from "./jsx/Navbar";
 import Hero from "./jsx/Hero";
 import Ustunlukler from "./jsx/Ustunlukler";
-
 import Tarifler from "./jsx/Tarifler";
 import Xidmetler from "./jsx/Xidmetler";
 import Eraziler from "./jsx/Eraziler";
