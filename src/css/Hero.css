@@ -169,22 +169,16 @@
 }
 
 
-/* Bütün dillər və bütün slaydlar üçün */
-.Hero-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* ⭐ SOLU SABİTLƏYİR */
+.Hero-card.slide-2 .Hero-rect {
+  width: fit-content;   /* mətn qədər olsun */
 }
 
-.Hero-card .Hero-rect {
-  display: inline-flex;   /* ⭐ əsas sirr */
-  align-items: center;
-
-  padding: 18px 28px;
-  border-radius: 22px;
-
-  white-space: nowrap;    /* istəsən silə bilərsən */
+html[lang="en"] .Hero-card.slide-1 .Hero-rect,
+html[lang="en"] .Hero-card.slide-3 .Hero-rect,
+html[lang="en"] .Hero-card.slide-4 .Hero-rect {
+  width: fit-content;
 }
+
 
 /* ====== TABLET (1024px) ====== */
  @media (max-width: 1024px) {
