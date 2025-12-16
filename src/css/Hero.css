@@ -169,11 +169,13 @@
 }
 
 
-/* Bütün dillər və bütün slaydlar üçün */
 .Hero-card .Hero-rect {
-  width: fit-content; 
-  display: inline-block; /* Elementin blok kimi bütün sətri tutmaması üçün */
-  white-space: nowrap;   /* Mətnin bir sətirdə qalmasını təmin edir */
+  display: inline-flex;        /* mətn ölçüsünə görə sağa böyüsün */
+  align-items: center;
+
+  padding: 18px 28px;
+
+  white-space: nowrap;        /* istəsən silə bilərsən */
 }
 
 /* ====== TABLET (1024px) ====== */
