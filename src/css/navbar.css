@@ -1,5 +1,5 @@
 /* Wrapper – fixed, həmişə yuxarıda */
-.navbar-wrapper {
+.Navbar-wrapper {
   position: fixed;
   top: 1px;
   left: 0;
@@ -11,8 +11,8 @@
   background: transparent;
 }
 
-/* Ağ kapsul navbar – radius 50, shadow */
-.navbar {
+/* Ağ kapsul Navbar – radius 50, shadow */
+.Navbar {
   width: 100%;
   max-width: 1180px;
   padding: 12px 28px;
@@ -25,19 +25,19 @@
   box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
 
-.navbar-logo img {
+.Navbar-logo img {
   display: block;
   height: 32px;
   width: auto;
 }
 
-.navbar-links {
+.Navbar-links {
   display: flex;
   gap: 24px;
   font-size: 14px;
 }
 
-.navbar-links a {
+.Navbar-links a {
   text-decoration: none;
   color: #1d2d5d;
   opacity: 0.85;
@@ -47,7 +47,7 @@
 }
 
 /* Hover – parıltı + bir az qaldırmaq */
-.navbar-links a:hover {
+.Navbar-links a:hover {
   opacity: 1;
   color: #009736;
   transform: translateY(-2px);
@@ -55,7 +55,7 @@
 }
 
 /* Sağ blok */
-.navbar-right {
+.Navbar-right {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -150,7 +150,7 @@
 }
 
 /* Hamburger – mobil üçün */
-.navbar-burger {
+.Navbar-burger {
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -163,7 +163,7 @@
   cursor: pointer;
 }
 
-.navbar-burger span {
+.Navbar-burger span {
   display: block;
   height: 2px;
   border-radius: 999px;
@@ -171,7 +171,7 @@
 }
 
 /* Mobil menyu */
-.navbar-mobile-menu {
+.Navbar-mobile-menu {
   position: fixed;
   top: 80px;
   left: 0;
@@ -185,7 +185,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
 }
 
-.navbar-mobile-menu a {
+.Navbar-mobile-menu a {
   text-decoration: none;
   color: #1d2d5d;
   font-size: 14px;
@@ -195,25 +195,25 @@
 /* ============== RESPONSIVE ============== */
 
 @media (max-width: 900px) {
-  .navbar {
+  .Navbar {
     padding-inline: 20px;
   }
 
-  .navbar-links {
+  .Navbar-links {
     display: none;
   }
 
-  .navbar-burger {
+  .Navbar-burger {
     display: flex;
   }
 }
 
 @media (max-width: 480px) {
-  .navbar {
+  .Navbar {
     padding-inline: 16px;
   }
 
-  .navbar-logo img {
+  .Navbar-logo img {
     height: 28px;
   }
 

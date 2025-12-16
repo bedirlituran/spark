@@ -1,5 +1,4 @@
-import React from "react";
-import "../css/ustunlukler.css";
+import "../css/Ustunlukler.css";
 import { useTranslation } from "react-i18next";
 
 function Ustunlukler() {
@@ -54,4 +53,3 @@ function Ustunlukler() {
 }
 
 export default Ustunlukler;
-

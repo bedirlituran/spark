@@ -1,12 +1,11 @@
-import React from "react";
-import "../css/haqqimizda.css";
+import "../css/Haqqimizida.css";
 import { useTranslation } from "react-i18next";
 
-function Haqqimizda() {
+function Haqqimizida() {
   const { t } = useTranslation();
 
   return (
-    <section className="about-section" id="haqqimizda">
+    <section className="about-section" id="Haqqimizida">
       <div className="about-wrapper">
         <div className="about-card">
           <h2 className="about-title">{t("about.title")}</h2>
@@ -24,4 +23,4 @@ function Haqqimizda() {
   );
 }
 
-export default Haqqimizda;
+export default Haqqimizida;

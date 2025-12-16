@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/tarifler.css";
+import "../css/Tarifler.css";
 import { useTranslation } from "react-i18next";
 
 function Tarifler() {

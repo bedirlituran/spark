@@ -1,17 +1,17 @@
-.eraziler-section {
+.Eraziler-section {
   padding: 110px 0 70px 0;
   text-align: center;
 }
 
 /* MAIN WRAPPER */
-.eraziler-wrapper {
+.Eraziler-wrapper {
   width: 94%;
   max-width: 1360px;
   margin: 0 auto;
 }
 
 /* ========== ƏRAZİLƏR BAŞLIĞI – GRADIENT PILL BUTTON ========== */
-.eraziler-title-pill {
+.Eraziler-title-pill {
   display: inline-block;
   margin: 0 auto 35px auto;
   padding: 12px 80px;

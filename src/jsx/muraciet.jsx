@@ -1,5 +1,4 @@
-import React from "react";
-import "../css/muraciet.css";
+import "../css/Muraciet.css";
 import { useTranslation } from "react-i18next";
 
 const Muraciet = () => {
@@ -21,7 +20,7 @@ const Muraciet = () => {
       `${t("contact.newRequest")}:\n\n${t("contact.name")}: ${name}\n${t("contact.surname")}: ${surname}\n${t("contact.phone")}: ${phone}\nEmail: ${email}\n${t("contact.message")}: ${message}`
     );
 
-    const whatsappText = encodeURIComponent(
+    const WhatsappText = encodeURIComponent(
       `${t("contact.newRequest")}:%0A%0A` +
       `${t("contact.name")}: ${name}%0A` +
       `${t("contact.surname")}: ${surname}%0A` +
@@ -30,7 +29,7 @@ const Muraciet = () => {
        `${t("contact.message")}: ${message}`
        );
        
-       window.location.href = `https://wa.me/994705652222?text=${whatsappText}`;
+       window.location.href = `https://wa.me/994705652222?text=${WhatsappText}`;
 
   };
 
@@ -122,7 +121,7 @@ const Muraciet = () => {
 
             <a href="https://wa.me/994705652222" target="_blank" rel="noopener noreferrer">
               <div className="social-circle">
-                <img src="/wpwhite.png" alt="WhatsApp" />
+                <img src="/wpwhite.png" alt="Whatsapp" />
               </div>
             </a>
 

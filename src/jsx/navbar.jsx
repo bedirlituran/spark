@@ -1,6 +1,6 @@
-// src/jsx/navbar.jsx
+// src/jsx/Navbar.jsx
 import { useState } from "react";
-import "../css/navbar.css";
+import "../css/Navbar.css";
 import { useTranslation } from "react-i18next";
 
 const LANGS = [
@@ -34,46 +34,46 @@ function Navbar() {
   };
 
   const scrollToHero = () => {
-    const hero = document.getElementById("hero");
-    if (hero) hero.scrollIntoView({ behavior: "smooth" });
+    const Hero = document.getElementById("Hero");
+    if (Hero) Hero.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <header className="navbar-wrapper">
-      <div className="navbar">
-        <div className="navbar-logo" onClick={scrollToHero} style={{ cursor: "pointer" }}>
+    <header className="Navbar-wrapper">
+      <div className="Navbar">
+        <div className="Navbar-logo" onClick={scrollToHero} style={{ cursor: "pointer" }}>
           <img src="/sparktellogo.png" alt="SparkTel Logo" />
         </div>
 
-        <nav className="navbar-links">
-          <a href="#haqqimizda" onClick={e => handleNavClick(e, "haqqimizda")}>
-            {t("nav.haqqimizda")}
+        <nav className="Navbar-links">
+          <a href="#Haqqimizida" onClick={e => handleNavClick(e, "Haqqimizida")}>
+            {t("nav.Haqqimizida")}
           </a>
-          <a href="#tarifler" onClick={e => handleNavClick(e, "tarifler")}>
-            {t("nav.tarifler")}
+          <a href="#Tarifler" onClick={e => handleNavClick(e, "Tarifler")}>
+            {t("nav.Tarifler")}
           </a>
-          <a href="#xidmetler" onClick={e => handleNavClick(e, "xidmetler")}>
-            {t("nav.xidmetler")}
+          <a href="#Xidmetler" onClick={e => handleNavClick(e, "Xidmetler")}>
+            {t("nav.Xidmetler")}
           </a>
-          <a href="#eraziler" onClick={e => handleNavClick(e, "eraziler")}>
-            {t("nav.eraziler")}
+          <a href="#Eraziler" onClick={e => handleNavClick(e, "Eraziler")}>
+            {t("nav.Eraziler")}
           </a>
           <a href="#odenisler" onClick={e => handleNavClick(e, "odenisler")}>
             {t("nav.odenisler")}
           </a>
-          <a href="#faq" onClick={e => handleNavClick(e, "faq")}>
-            FAQ
+          <a href="#Faq" onClick={e => handleNavClick(e, "Faq")}>
+            Faq
           </a>
           {/* <a href="#muraciet" onClick={e => handleNavClick(e, "muraciet")}>
             {t("nav.muraciet")}
           </a> */}
           
-          <a href="#melumat" onClick={e => handleNavClick(e, "melumat")}>
-            {t("nav.melumat")}
+          <a href="#Melumat" onClick={e => handleNavClick(e, "Melumat")}>
+            {t("nav.Melumat")}
           </a>
         </nav>
 
-        <div className="navbar-right">
+        <div className="Navbar-right">
           <div className="lang-select-wrapper">
             <button
               className="lang-select-trigger"
@@ -103,7 +103,7 @@ function Navbar() {
           </div>
 
           <button
-            className="navbar-burger"
+            className="Navbar-burger"
             onClick={() => setIsOpen(prev => !prev)}
             aria-label="Toggle menu"
           >
@@ -115,18 +115,18 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="navbar-mobile-menu">
-          <a href="#haqqimizda" onClick={e => handleNavClick(e, "haqqimizda")}>
-            {t("nav.haqqimizda")}
+        <div className="Navbar-mobile-menu">
+          <a href="#Haqqimizida" onClick={e => handleNavClick(e, "Haqqimizida")}>
+            {t("nav.Haqqimizida")}
           </a>
-          <a href="#tarifler" onClick={e => handleNavClick(e, "tarifler")}>
-            {t("nav.tarifler")}
+          <a href="#Tarifler" onClick={e => handleNavClick(e, "Tarifler")}>
+            {t("nav.Tarifler")}
           </a>
-          <a href="#xidmetler" onClick={e => handleNavClick(e, "xidmetler")}>
-            {t("nav.xidmetler")}
+          <a href="#Xidmetler" onClick={e => handleNavClick(e, "Xidmetler")}>
+            {t("nav.Xidmetler")}
           </a>
-          <a href="#eraziler" onClick={e => handleNavClick(e, "eraziler")}>
-            {t("nav.eraziler")}
+          <a href="#Eraziler" onClick={e => handleNavClick(e, "Eraziler")}>
+            {t("nav.Eraziler")}
           </a>
           <a href="#odenisler" onClick={e => handleNavClick(e, "odenisler")}>
             {t("nav.odenisler")}
@@ -134,11 +134,11 @@ function Navbar() {
           {/* <a href="#muraciet" onClick={e => handleNavClick(e, "muraciet")}>
             {t("nav.muraciet")}
           </a> */}
-          <a href="#faq" onClick={e => handleNavClick(e, "faq")}>
-            FAQ
+          <a href="#Faq" onClick={e => handleNavClick(e, "Faq")}>
+            Faq
           </a>
-          <a href="#melumat" onClick={e => handleNavClick(e, "melumat")}>
-            {t("nav.melumat")}
+          <a href="#Melumat" onClick={e => handleNavClick(e, "Melumat")}>
+            {t("nav.Melumat")}
           </a>
         </div>
       )}

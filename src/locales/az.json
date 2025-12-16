@@ -1,15 +1,15 @@
 {
   "nav": {
-    "haqqimizda": "Haqqımızda",
-    "tarifler": "Tariflər",
-    "xidmetler": "Xidmətlər",
-    "eraziler": "Ərazilər",
+    "Haqqimizida": "Haqqımızda",
+    "Tarifler": "Tariflər",
+    "Xidmetler": "Xidmətlər",
+    "Eraziler": "Ərazilər",
     "odenisler": "Ödənişlər",
     "muraciet": "Müraciət",
-    "melumat": "Məlumat"
+    "Melumat": "Məlumat"
   },
 
-  "hero": {
+  "Hero": {
     "slide1": {
       "part1": "Sürətli internet",
       "part2": "sonsuz əyləncə",
@@ -36,7 +36,7 @@
     }
   },
 
-  "ustunlukler": {
+  "Ustunlukler": {
   "line1_1": "Canlı dəstək",
   "line1_2": "7/24",
 
@@ -138,7 +138,7 @@
     "terminal": "Terminal"
   },
 
-  "faq": {
+  "Faq": {
     "title": "Ən çox verilən suallar",
 
     "q1": "Sparktel xidmətlərinə qoşulma haqqı nə qədərdir?",
@@ -217,7 +217,7 @@
   "korporativList": [
     "Crescent Business Tower",
     "AF Business House",
-    "JW Marriott Absheron",
+    "JW Marriott AbsHeron",
     "Yeni Həyat Plaza",
     "Luxen Plaza",
     "Time Plaza",

@@ -1,31 +1,31 @@
 import React, { useState, useEffect } from "react";
-import "../css/hero.css";
+import "../css/Hero.css";
 import { useTranslation } from "react-i18next";
 
 const slides = [
   {
     id: 1,
-    image: "/heroart1.png",
-    title: "hero.slide1.title",
-    rectLines: ["hero.slide1.line1", "hero.slide1.line2"],
+    image: "/Heroart1.png",
+    title: "Hero.slide1.title",
+    rectLines: ["Hero.slide1.line1", "Hero.slide1.line2"],
   },
   {
     id: 2,
-    image: "/heroart2.png",
-    title: "hero.slide2.title",
-    rectLines: ["hero.slide2.line1"],
+    image: "/Heroart2.png",
+    title: "Hero.slide2.title",
+    rectLines: ["Hero.slide2.line1"],
   },
   {
     id: 3,
-    image: "/heroart3.png",
-    title: "hero.slide3.title",
-    rectLines: ["hero.slide3.line1"],
+    image: "/Heroart3.png",
+    title: "Hero.slide3.title",
+    rectLines: ["Hero.slide3.line1"],
   },
   {
     id: 4,
-    image: "/heroart4.png",
-    title: "hero.slide4.title",
-    rectLines: ["hero.slide4.line1"],
+    image: "/Heroart4.png",
+    title: "Hero.slide4.title",
+    rectLines: ["Hero.slide4.line1"],
   },
 ];
 
@@ -51,38 +51,38 @@ function Hero() {
   };
 
   return (
-    <section className="hero-section" id="hero">
-      <div className="hero-wrapper">
-        <div className={`hero-card slide-${currentSlide.id}`}>
+    <section className="Hero-section" id="Hero">
+      <div className="Hero-wrapper">
+        <div className={`Hero-card slide-${currentSlide.id}`}>
           <img
             src={currentSlide.image}
             alt={t(currentSlide.title)}
-            className="hero-bg"
+            className="Hero-bg"
           />
-          <div className="hero-overlay">
-            <h1 className="hero-title">
+          <div className="Hero-overlay">
+            <h1 className="Hero-title">
               {currentSlide.id === 1 ? (
                 <>
-                  <span>{t("hero.slide1.part1")}</span>
-                  <span>{t("hero.slide1.part2")}</span>
+                  <span>{t("Hero.slide1.part1")}</span>
+                  <span>{t("Hero.slide1.part2")}</span>
                 </>
               ) : currentSlide.id === 2 ? (
                 <>
-                  <span>{t("hero.slide2.part1")}</span>
-                  <span>{t("hero.slide2.part2")}</span>
-                  <span>{t("hero.slide2.part3")}</span>
+                  <span>{t("Hero.slide2.part1")}</span>
+                  <span>{t("Hero.slide2.part2")}</span>
+                  <span>{t("Hero.slide2.part3")}</span>
                 </>
               ) : currentSlide.id === 3 ? (
                 <>
-                  <span>{t("hero.slide3.part1")}</span>
-                  <span>{t("hero.slide3.part2")}</span>
+                  <span>{t("Hero.slide3.part1")}</span>
+                  <span>{t("Hero.slide3.part2")}</span>
                 </>
               ) : (
                 t(currentSlide.title)
               )}
             </h1>
-            <div className="hero-rect">
-              <p className="hero-rect-text">
+            <div className="Hero-rect">
+              <p className="Hero-rect-text">
                 {currentSlide.rectLines.map((line, i) => (
                   <span key={i}>
                     {t(line)}
@@ -93,19 +93,19 @@ function Hero() {
             </div>
           </div>
 
-          <button className="hero-arrow hero-arrow-left" onClick={handlePrev}>
+          <button className="Hero-arrow Hero-arrow-left" onClick={handlePrev}>
             <span className="arrow-icon" />
           </button>
-          <button className="hero-arrow hero-arrow-right" onClick={handleNext}>
+          <button className="Hero-arrow Hero-arrow-right" onClick={handleNext}>
             <span className="arrow-icon" />
           </button>
 
           {/* Dots */}
-          <div className="hero-dots">
+          <div className="Hero-dots">
             {slides.map((_, i) => (
               <button
                 key={i}
-                className={`hero-dot ${i === activeIndex ? "active" : ""}`}
+                className={`Hero-dot ${i === activeIndex ? "active" : ""}`}
                 onClick={() => setActiveIndex(i)}
               />
             ))}

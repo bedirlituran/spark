@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/odemeler.css";
+import "../css/Odemeler.css";
 import { useTranslation } from "react-i18next";
 
 const Odemeler = () => {

@@ -1,15 +1,15 @@
 {
   "nav": {
-    "haqqimizda": "О нас",
-    "tarifler": "Тарифы",
-    "xidmetler": "Услуги",
-    "eraziler": "Территории",
+    "Haqqimizida": "О нас",
+    "Tarifler": "Тарифы",
+    "Xidmetler": "Услуги",
+    "Eraziler": "Территории",
     "odenisler": "Платежи",
     "muraciet": "Заявка",
-    "melumat": "Информация"
+    "Melumat": "Информация"
   },
 
-  "hero": {
+  "Hero": {
     "slide1": {
       "part1": "Быстрый интернет",
       "part2": "бесконечное развлечение",
@@ -36,7 +36,7 @@
     }
   },
 
-  "ustunlukler": {
+  "Ustunlukler": {
   "line1_1": "Онлайн поддержка",
   "line1_2": "24/7",
 
@@ -138,7 +138,7 @@
     "terminal": "Терминал"
   },
 
-  "faq": {
+  "Faq": {
     "title": "Часто задаваемые вопросы",
 
     "q1": "Есть ли плата за подключение услуг Sparktel?",
@@ -217,7 +217,7 @@
   "korporativList": [
     "Crescent Business Tower",
     "AF Business House",
-    "JW Marriott Absheron",
+    "JW Marriott AbsHeron",
     "Yeni Hayat Plaza",
     "Luxen Plaza",
     "Time Plaza",

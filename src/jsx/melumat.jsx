@@ -1,4 +1,4 @@
-import "../css/melumat.css";
+import "../css/Melumat.css";
 import { useTranslation } from "react-i18next";
 
 const Melumat = () => {
@@ -12,44 +12,44 @@ const Melumat = () => {
   };
 
   return (
-    <footer className="melumat-section" id="melumat">
+    <footer className="Melumat-section" id="Melumat">
 
       {/* LOGO */}
-      <div className="melumat-logo">
+      <div className="Melumat-logo">
         <img src="/logoag.png" alt="SparkTel" />
         {/* <img src="/sparktellogo.png" alt="SparkTel" /> */}
       </div>
 
       {/* TOP NAV LINKS */}
-      <div className="melumat-links">
-        <button onClick={() => scrollTo("haqqimizda")}>{t("footer.about")}</button>
-        <button onClick={() => scrollTo("tarifler")}>{t("footer.tariffs")}</button>
-        <button onClick={() => scrollTo("xidmetler")}>{t("footer.services")}</button>
-        <button onClick={() => scrollTo("eraziler")}>{t("footer.areas")}</button>
+      <div className="Melumat-links">
+        <button onClick={() => scrollTo("Haqqimizida")}>{t("footer.about")}</button>
+        <button onClick={() => scrollTo("Tarifler")}>{t("footer.tariffs")}</button>
+        <button onClick={() => scrollTo("Xidmetler")}>{t("footer.services")}</button>
+        <button onClick={() => scrollTo("Eraziler")}>{t("footer.areas")}</button>
         <button onClick={() => scrollTo("odenisler")}>{t("footer.payments")}</button>
-        <button onClick={() => scrollTo("faq")}>FAQ</button>
+        <button onClick={() => scrollTo("Faq")}>Faq</button>
         {/* <button onClick={() => scrollTo("muraciet")}>{t("footer.support")}</button> */}
       </div>
 
       {/* GREEN LINE */}
-      <div className="melumat-divider"></div>
+      <div className="Melumat-divider"></div>
 
       {/* CONTACT INFO */}
-      <div className="melumat-contact">
+      <div className="Melumat-contact">
 
-        <div className="melumat-phone-row">
-          <div className="melumat-phone">
+        <div className="Melumat-phone-row">
+          <div className="Melumat-phone">
             <img src="/phonewhite.png" alt="Phone" />
             <a href="tel:0705652222">070-565-22-22</a>
           </div>
 
-          <div className="melumat-phone">
+          <div className="Melumat-phone">
             <img src="/phonewhite.png" alt="Phone" />
             <a href="tel:0125652222">012-565-22-22</a>
           </div>
         </div>
 
-        <div className="melumat-location">
+        <div className="Melumat-location">
           <img src="/locationwhite.png" alt="Location" />
           <span>{t("footer.address")}</span>
         </div>
@@ -57,7 +57,7 @@ const Melumat = () => {
       </div>
 
       {/* SOCIAL ICONS */}
-      <div className="melumat-social">
+      <div className="Melumat-social">
         <a href="https://www.instagram.com/sparktel.mmc" target="_blank">
           <img src="/instawhite.png" alt="Instagram" />
           {/* <img src="/instablue.png" alt="Instagram" /> */}
@@ -67,7 +67,7 @@ const Melumat = () => {
           {/* <img src="/fbblue.png" alt="Facebook" /> */}
         </a>
         <a href="https://wa.me/994705652222" target="_blank">
-           <img src="/wpwhite.png" alt="WhatsApp" />
+           <img src="/wpwhite.png" alt="Whatsapp" />
             </a>
         <a href="mailto:info@sparktel.az" target="_blank">
           <img src="/emailwhite.png" alt="Email" />
@@ -76,7 +76,7 @@ const Melumat = () => {
             </div>
 
       {/* COPYRIGHT */}
-      <div className="melumat-copy">
+      <div className="Melumat-copy">
         © 2025 Sparktel MMC
       </div>
 

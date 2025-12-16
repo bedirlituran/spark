@@ -1,5 +1,4 @@
-import React from "react";
-import "../css/whatsappbutton.css";
+import "../css/Whatsappbutton.css";
 
 const WhatsappButton = () => {
   return (
@@ -9,7 +8,7 @@ const WhatsappButton = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <img src="/wpmuraciet.png" alt="WhatsApp" />
+      <img src="/wpmuraciet.png" alt="Whatsapp" />
     </a>
   );
 };

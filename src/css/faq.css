@@ -1,11 +1,11 @@
-.faq-section {
+.Faq-section {
   width: 100%;
   padding: 80px 0;
   text-align: center;
 }
 
-/* ====== FAQ TITLE PILL BUTTON ====== */
-.faq-title-pill {
+/* ====== Faq TITLE PILL BUTTON ====== */
+.Faq-title-pill {
   display: inline-flex;
   gap: 8px;
   align-items: center;
@@ -24,17 +24,17 @@
 }
 
 /* Ən çox verilən → ağ */
-.faq-title-pill {
+.Faq-title-pill {
   color: #ffffff;
 }
 
 /* suallar → dark blue (amma artıq ağ fond YOXDUR) */
-.faq-title-dark {
+.Faq-title-dark {
   color: #fff;
 }
 
 /* MAIN CONTAINER */
-.faq-container {
+.Faq-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -43,20 +43,20 @@
   margin: auto;
 }
 
-.faq-column {
+.Faq-column {
   width: 50%;
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
 
-/* FAQ ITEM */
-.faq-item {
+/* Faq ITEM */
+.Faq-item {
   width: 100%;
 }
 
 /* Kart (sual + cavab birlikdə) */
-.faq-card {
+.Faq-card {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
@@ -64,27 +64,27 @@
   transition: background 0.25s ease, box-shadow 0.25s ease;
 }
 
-.faq-card.open {
+.Faq-card.open {
   background: #ffffff;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
   border-top: 4px solid #009736;
 }
 
 /* SUAL LİNESİ */
-.faq-question {
+.Faq-question {
   padding: 18px 22px;
   position: relative;
   cursor: pointer;
   text-align: left;
 }
 
-.faq-question span:first-child {
+.Faq-question span:first-child {
   font-size: 16px;
   font-weight: 600;
   color: #000;
 }
 
-.faq-icon {
+.Faq-icon {
   position: absolute;
   right: 22px;
   top: 50%;
@@ -93,12 +93,12 @@
   transition: transform 0.25s ease;
 }
 
-.faq-icon.rotate {
+.Faq-icon.rotate {
   transform: translateY(-50%) rotate(90deg);
 }
 
 /* CAVAB */
-.faq-answer {
+.Faq-answer {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
@@ -109,13 +109,13 @@
     padding 0.25s ease;
 }
 
-.faq-answer.open {
+.Faq-answer.open {
   max-height: 600px;
   opacity: 1;
   padding: 18px 22px;
 }
 
-.faq-answer p {
+.Faq-answer p {
   margin-top: 6px;
   font-size: 15px;
   font-weight: 500;
@@ -126,7 +126,7 @@
   padding: 0;
 }
 
-.faq-question span:first-child {
+.Faq-question span:first-child {
   display: block;
   width: 90%;
   font-size: 16px;

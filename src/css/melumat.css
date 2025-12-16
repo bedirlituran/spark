@@ -1,4 +1,4 @@
-.melumat-section {
+.Melumat-section {
   margin-top: 50px;
   padding: 30px 5px;
   background: #1d2d5d;
@@ -6,13 +6,13 @@
   text-align: center;
 }
 
-.melumat-logo img {
+.Melumat-logo img {
   width: 150px;
   margin-bottom: 25px;
 } 
 
 /* TOP LINKS */
-.melumat-links {
+.Melumat-links {
   display: flex;
   justify-content: center;
   gap: 35px;
@@ -20,7 +20,7 @@
   margin-bottom: 25px;
 }
 
-.melumat-links button {
+.Melumat-links button {
   background: none;
   border: none;
   color: #fff;
@@ -30,12 +30,12 @@
   transition: 0.2s;
 }
 
-.melumat-links button:hover {
+.Melumat-links button:hover {
   color: #009736;
 }
 
 /* GREEN DIVIDER */
-.melumat-divider {
+.Melumat-divider {
   width: 85%;
   height: 2px;
  	background: #fff;
@@ -43,7 +43,7 @@
 } 
 
 /* CONTACT INFO */
-.melumat-contact {
+.Melumat-contact {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -52,21 +52,21 @@
   font-weight: 550;
 } 
 
-.melumat-phone,
-.melumat-location {
+.Melumat-phone,
+.Melumat-location {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 } 
 
-.melumat-phone img,
-.melumat-location img {
+.Melumat-phone img,
+.Melumat-location img {
   width: 15px;
   height: 15px;
 }
 
-.melumat-phone-row {
+.Melumat-phone-row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@
 }
 
 /* SOCIAL ICONS */
-.melumat-social {
+.Melumat-social {
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -82,31 +82,31 @@
   margin-bottom: 10px;
 } 
 
-.melumat-social img {
+.Melumat-social img {
   width: 20px;
   height: 20px;
   cursor: pointer;
   transition: 0.25s;
 }
 
-.melumat-social img:hover {
+.Melumat-social img:hover {
   opacity: 0.7;
 } 
 
 /* COPYRIGHT */
-.melumat-copy {
+.Melumat-copy {
   color: #fff;
   font-size: 14px;
   margin-top: 40px;
 } 
 
-.melumat-phone a {
+.Melumat-phone a {
   color: #ffffff;        /* ağ rəng */
   text-decoration: none; /* alt xətt olmasın */
   font-weight: 500;
   transition: 0.3s ease;
 }
 
-.melumat-phone a:hover {
+.Melumat-phone a:hover {
   color: #009703; /* hover rəngi */
 }

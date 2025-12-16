@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/eraziler.css";
+import "../css/Eraziler.css";
 import { useTranslation } from "react-i18next";
 
 const Eraziler = () => {
@@ -42,9 +42,9 @@ const Eraziler = () => {
       : mtkList;
 
   return (
-    <section id="eraziler" className="eraziler-section">
+    <section id="Eraziler" className="Eraziler-section">
       
-      <h2 className="eraziler-title-pill">{t("areas.title")}</h2>
+      <h2 className="Eraziler-title-pill">{t("areas.title")}</h2>
 
       <div className="tabs-erazi-capsule">
         <button

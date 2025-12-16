@@ -1,15 +1,15 @@
 {
   "nav": {
-    "haqqimizda": "About us",
-    "tarifler": "Tariffs",
-    "xidmetler": "Services",
-    "eraziler": "Areas",
+    "Haqqimizida": "About us",
+    "Tarifler": "Tariffs",
+    "Xidmetler": "Services",
+    "Eraziler": "Areas",
     "odenisler": "Payments",
     "muraciet": "Apply",
-    "melumat": "Information"
+    "Melumat": "Information"
   },
 
-  "hero": {
+  "Hero": {
     "slide1": {
       "part1": "Fast internet",
       "part2": "endless entertainment",
@@ -36,7 +36,7 @@
     }
   },
 
-  "ustunlukler": {
+  "Ustunlukler": {
   "line1_1": "Live support",
   "line1_2": "24/7",
 
@@ -138,7 +138,7 @@
     "terminal": "Terminal"
   },
 
-  "faq": {
+  "Faq": {
     "title": "Frequently asked questions",
 
     "q1": "Is there any installation fee for Sparktel services?",
@@ -217,7 +217,7 @@
   "korporativList": [
     "Crescent Business Tower",
     "AF Business House",
-    "JW Marriott Absheron",
+    "JW Marriott AbsHeron",
     "Yeni Hayat Plaza",
     "Luxen Plaza",
     "Time Plaza",
