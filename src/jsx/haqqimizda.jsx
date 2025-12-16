@@ -1,4 +1,4 @@
-import "../css/Haqqimizida.css";
+import "../css/Haqqimizda.css"
 import { useTranslation } from "react-i18next";
 
 function Haqqimizida() {
