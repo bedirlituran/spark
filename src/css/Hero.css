@@ -169,16 +169,12 @@
 }
 
 
-.Hero-card.slide-2 .Hero-rect {
-  width: fit-content;   /* mətn qədər olsun */
+/* Bütün dillər və bütün slaydlar üçün */
+.Hero-card .Hero-rect {
+  width: fit-content; 
+  display: inline-block; /* Elementin blok kimi bütün sətri tutmaması üçün */
+  white-space: nowrap;   /* Mətnin bir sətirdə qalmasını təmin edir */
 }
-
-html[lang="en"] .Hero-card.slide-1 .Hero-rect,
-html[lang="en"] .Hero-card.slide-3 .Hero-rect,
-html[lang="en"] .Hero-card.slide-4 .Hero-rect {
-  width: fit-content;
-}
-
 
 /* ====== TABLET (1024px) ====== */
  @media (max-width: 1024px) {
