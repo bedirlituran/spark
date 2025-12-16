@@ -2,18 +2,17 @@
 import "./i18n";
 
 import "./App.css";
-import Navbar from "./jsx/navbar";
-import Hero from "./jsx/hero";
-import Ustunlukler from "./jsx/ustunlukler";
-import Haqqimizda from "./jsx/haqqimizda";
-import Tarifler from "./jsx/tarifler";
-import Xidmetler from "./jsx/xidmetler";
+import Navbar from "./jsx/Navbar";
+import Hero from "./jsx/Hero";
+import Ustunlukler from "./jsx/Ustunlukler";
+import Haqqimizda from "./jsx/Haqqimizda";
+import Tarifler from "./jsx/Tarifler";
+import Xidmetler from "./jsx/Xidmetler";
+import Odemeler from "./jsx/Odemeler";
+import Faq from "./jsx/Faq";
+import Melumat from "./jsx/Melumat";
+import WhatsappButton from "./jsx/Whatsappbutton";
 import Eraziler from "./jsx/eraziler";
-import Odemeler from "./jsx/odemeler";
-import Faq from "./jsx/faq";
-// import Muraciet from "./jsx/muraciet";
-import Melumat from "./jsx/melumat";
-import WhatsappButton from "./jsx/whatsappbutton";
 
 
 function App() {
@@ -27,7 +26,7 @@ function App() {
         <Haqqimizda />
         <Tarifler />
         <Xidmetler />
-        <Eraziler />
+       <Eraziler />
         <Odemeler />
         <Faq />
         {/* <Muraciet /> */}
