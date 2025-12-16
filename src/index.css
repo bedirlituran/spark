@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Ümumi font */
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+/* Bütün elementlər üçün normal box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f4f6f9;   /* açıq boz fon */
+  color: #1d2d5d;        /* əsas text rəngi */
+}
+
+/* Linklərin default alt xətini götürürük. Rəngi componentlərdən idarə edəcəyik */
+a {
+  text-decoration: none;
+}
+
+section {
+  scroll-margin-top: 110px;
+}

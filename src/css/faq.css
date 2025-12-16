@@ -1,0 +1,137 @@
+.faq-section {
+  width: 100%;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* ====== FAQ TITLE PILL BUTTON ====== */
+.faq-title-pill {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  padding: 12px 60px;
+  border-radius: 50px;
+  background: linear-gradient(
+    to bottom,
+    #009736 0%,
+    #009736 80%,
+    #1d2d5d 105%
+  );
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Ən çox verilən → ağ */
+.faq-title-pill {
+  color: #ffffff;
+}
+
+/* suallar → dark blue (amma artıq ağ fond YOXDUR) */
+.faq-title-dark {
+  color: #fff;
+}
+
+/* MAIN CONTAINER */
+.faq-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.faq-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* FAQ ITEM */
+.faq-item {
+  width: 100%;
+}
+
+/* Kart (sual + cavab birlikdə) */
+.faq-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.faq-card.open {
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
+  border-top: 4px solid #009736;
+}
+
+/* SUAL LİNESİ */
+.faq-question {
+  padding: 18px 22px;
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+}
+
+.faq-question span:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.faq-icon {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  transition: transform 0.25s ease;
+}
+
+.faq-icon.rotate {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+/* CAVAB */
+.faq-answer {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0 22px;
+  transition:
+    max-height 0.25s ease,
+    opacity 0.25s ease,
+    padding 0.25s ease;
+}
+
+.faq-answer.open {
+  max-height: 600px;
+  opacity: 1;
+  padding: 18px 22px;
+}
+
+.faq-answer p {
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.45;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.faq-question span:first-child {
+  display: block;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+  line-height: 1.3;
+}

@@ -1,0 +1,301 @@
+/* Ümumi section */
+.services-section {
+  background: #f5f6f9;
+  padding: 60px 0 30px;
+}
+
+/* Gradient başlıq */
+.services-title {
+  width: fit-content;
+  margin: 0 auto 40px auto;
+  padding: 12px 46px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    #009736 0%,
+    #009736 80%,
+    #1d2d5d 105%
+  );
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.services-wrapper {
+   width: 90%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+/* ⭐ SUPER RESPONSIVE GRID — AUTO-FIT */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 2fr));
+  gap: 20px;
+}
+
+/* Kart */
+.service-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 22px 26px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: none;
+  text-align: left;
+  cursor: default;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04);
+  transition: background 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  color: #1d2d5d;
+  
+
+  /* ⭐ Kartlar sıxılmasın */
+  min-height: 140px;
+}
+/* ⭐ Mobil versiya üçün — 480px və aşağı */
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr !important; /* hamısı alt-alta */
+  }
+
+  .service-card {
+    flex-direction: row;     /* İstəsən column da edə bilərik */
+    gap: 16px;
+    padding: 18px 20px;
+    min-height: unset;       /* mobil daha sərbəst olsun */
+  }
+}
+/* IP TV kartı kliklənə bilən olsun */
+.service-card-iptv {
+  cursor: pointer;
+}
+
+/* Sol blok */
+.service-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 260px;
+  max-width: 260px;
+
+  /* ⭐ Çox vacib responsive düzəliş */
+  /* min-width: 0; */
+}
+
+/* Icon konteyneri */
+.service-icon-wrap {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+/* Bütün iconlar eyni ölçüdə */
+.service-icon {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.2s ease;
+}
+
+/* Lokal şəbəkə iconu böyüdülmüş */
+.service-localnet .service-icon {
+  transform: scale(1.15);
+}
+
+.icon-blue {
+  opacity: 1;
+}
+
+.icon-green {
+  opacity: 0;
+}
+
+/* Başlıq */
+.service-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d2d5d;
+}
+
+.service-title span {
+  display: block;
+}
+
+/* Açıklama */
+.service-desc {
+  margin: 0;
+  margin-left: -45px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1d2d5d;
+  font-weight: 500;
+}
+
+/* Hover stili */
+.service-card:hover {
+  background: #1d2d5d;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.service-card:hover .service-title,
+.service-card:hover .service-desc {
+  color: #ffffff;
+}
+
+/* Icon rəng dəyişməsi hoverda */
+.service-card:hover .icon-blue {
+  opacity: 0;
+}
+
+.service-card:hover .icon-green {
+  opacity: 1;
+}
+
+/* IP TV VIEW – gizli tab açıldıqda */
+.iptv-view {
+  text-align: center;
+}
+
+/* geri qayıt düyməsi */
+.iptv-back-btn {
+  margin: 0 auto 18px auto;
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid #1d2d5d;
+  background: #ffffff;
+  color: #1d2d5d;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.iptv-back-btn:hover {
+  background: #1d2d5d;
+  color: #ffffff;
+}
+
+/* Kanallar bloku */
+.iptv-channels {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 26px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+}
+
+.iptv-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 14px;
+  color: #1d2d5d;
+  text-align: left;
+}
+
+.iptv-item + .iptv-item {
+  margin-top: 4px;
+}
+
+.iptv-mini-link {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1d2d5d;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.service-card:hover .iptv-mini-link {
+  color: #ffffff;
+}
+
+.iptv-mini-link:hover {
+  text-decoration: underline;
+}
+
+.service-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+/* IPTV kart grid */
+.iptv-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 10px;
+}
+
+.iptv-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1d2d5d;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  transition: 0.2s ease;
+  cursor: default;
+  user-select: none;
+}
+
+.iptv-card:hover {
+  transform: translateY(-5px);
+  background: none;
+  color: #1d2d5d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.iptv-categories {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  row-gap: 14px;
+}
+
+.iptv-categories button {
+  padding: 8px 18px;
+  border-radius: 30px;
+  border: 1px solid #1d2d5d;
+  background: white;
+  color: #1d2d5d;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.iptv-categories button.active {
+  background: linear-gradient(180deg, #009736, #1d2d5d);
+  color: #fff;
+}
+
+.iptv-categories button:hover {
+  transform: translateY(-3px);
+}
+
+/* IPTV view-da geri qayıt düyməsi STICKY olsun */
+.services-wrapper.iptv-view > .iptv-back-btn {
+  position: sticky;
+  top: 90px;          /* header altı */
+  z-index: 10;
+}
+

@@ -1,0 +1,62 @@
+/* Ümumi section */
+.about-section {
+  position: relative;
+  background: #f5f6f9;
+  padding: 50px 0 70px;
+  overflow: visible;
+  z-index: 0;
+}
+
+/* Wrapper — container */
+.about-wrapper {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Tünd göy kart — öz-özünə responsive edir */
+.about-card {
+  width: 100%;
+  max-width: 1172px;
+  margin: 0 auto;
+  background: #1d2d5d;
+  border-radius: 30px;
+  padding: 40px 56px;
+
+  /* ⭐ Auto-responsive üçün əlavə STRATEGİYA */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Başlıq */
+.about-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  color: #ffffff;
+
+  /* Öz-özünə responsive olur */
+  line-height: 1.25;
+}
+
+/* Mətin — auto-responsive */
+.about-text {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: left;
+
+  /* Mobil ekran üçün mətnin yaxşı görünməsi */
+  word-break: break-word;
+}
+
+/* Bold mətin */
+.about-text strong {
+  font-weight: 700;
+}

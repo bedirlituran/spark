@@ -1,0 +1,180 @@
+.eraziler-section {
+  padding: 110px 0 70px 0;
+  text-align: center;
+}
+
+/* MAIN WRAPPER */
+.eraziler-wrapper {
+  width: 94%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+/* ========== ƏRAZİLƏR BAŞLIĞI – GRADIENT PILL BUTTON ========== */
+.eraziler-title-pill {
+  display: inline-block;
+  margin: 0 auto 35px auto;
+  padding: 12px 80px;
+  border-radius: 50px;
+  background: linear-gradient(
+    to bottom,
+    #009736 0%,
+    #009736 80%,
+    #1d2d5d 105%
+  );
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ========== TABS CAPSULE ========== */
+.tabs-erazi-capsule {
+  background: #fff;
+  padding: 4px 6px;
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;       /* ⭐ Alt-alta keçə bilsin */
+  gap: 6px;
+  justify-content: center;
+  margin: 0 auto 35px auto;
+  width: fit-content;
+}
+
+.erazi-switch {
+  padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: #1d2d5d;
+  transition: 0.25s;
+}
+
+.erazi-switch.active {
+  background: linear-gradient(180deg, #009736, #1d2d5d);
+  color: #fff;
+}
+
+/* ========== CONTENT ========== */
+.erazi-content {
+  display: flex;
+  flex-wrap: wrap;        /* ⭐ Wrapper əsasında responsive */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* LEFT COLUMNS */
+.address-columns {
+  display: flex;
+  flex-wrap: wrap;         /* ⭐ Dar ekranda alt-alta düşür */
+  gap: 25px;
+  justify-content: center;
+}
+
+/* SINGLE COLUMN */
+.address-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+/* ADDRESS ITEM */
+.address-item {
+  background: white;
+  border: 1px solid #d9d9d9;
+  padding: 12px 18px;
+  border-radius: 15px;
+  width: 100%;             /* ⭐ Wrapper-friendly */
+  width: 300px;        /* ⭐ Dizayn limitini qoruyur */
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #1d2d5d;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.address-item:hover {
+  border-color: #009736;
+}
+
+.loc-icon {
+  color: #009736;
+}
+
+.divider-erazi {
+  display: none;
+  width: 2px;
+  background: #d9d9d9;
+  opacity: 0.6;
+}
+
+/* ========== MAP ========== */
+.map-container {
+  width: 520px;
+  position: relative;
+  justify-content: center;
+}
+
+.map-container iframe {
+  width: 100%;             /* ⭐ Tam responsive */
+  max-width: 600px;        /* ⭐ Dizayn limitini qoruyur */
+  height: 400px;           /* Vizual olduğu kimi qalır */
+  border: none;
+  border-radius: 16px;
+}
+
+/* .korporativ-note {
+  display: inline-block;
+  margin: 25px auto 0 auto;
+  padding: 8px 30px;
+  border-radius: 50px;
+  background: linear-gradient(
+     to right, 
+       #007e3d -20%,
+       #1d2d5d 30% 
+ );
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba (29, 45, 93, 0.3);
+  max-width: 90%;
+  width: fit-content;
+}  */
+
+/* Korporativ qeyd – IPTV kanalı tipli AĞ KART STİLİ */
+.korporativ-note {
+  display: block;
+  margin: 25px auto 0 auto;
+  padding: 16px 18px;
+
+  background: #ffffff;              /* ⭐ ağ kart */
+  border-radius: 12px;              /* IPTV kart radiusu kimi */
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+
+  font-size: 15px;
+  font-weight: 600;
+  color: #1d2d5d;
+  text-align: center;
+
+  max-width: 420px;
+  width: 100%;
+  user-select: none;
+}
+
+
+@media (min-width: 441px) {
+  .divider-erazi {
+    display: block;
+  }
+}
+

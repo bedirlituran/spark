@@ -1,0 +1,178 @@
+.muraciet-section {
+  width: 100%;
+  padding: 70px 0;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #009736;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+}
+
+.muraciet-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* === MÜRACİƏT BAŞLIĞI */
+.muraciet-title-pill {
+  display: inline-block;
+  padding: 14px 60px;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 auto 40px auto;
+  background: linear-gradient(
+    to bottom,
+    #009736 0%,
+    #009736 75%,
+    #1d2d5d 110%
+  );
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+  text-align: center;
+}
+
+.muraciet-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group.full-width {
+  width: 100%;
+}
+
+/* Label */
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  /* color: #e6e6e6; */
+  color: #009736;
+  text-align: left;    /* ✔ Başlıqlar sola keçdi */
+}
+
+/* Inputs & Textarea */
+.muraciet-form input,
+.muraciet-form textarea {
+  background-color: transparent;
+  border: 1.2px solid #009736;
+  border-radius: 15px;
+  padding: 12px 18px;
+  color: #1d2d5d;
+  font-size: 14px;
+  outline: none;
+}
+
+.muraciet-form textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+/* Placeholder — normal */
+.muraciet-form input::placeholder,
+.muraciet-form textarea::placeholder {
+  color: rgba(29, 45, 93, 0.6);
+}
+
+/* Placeholder — hover zamanı */
+.muraciet-form input:hover::placeholder,
+.muraciet-form textarea:hover::placeholder {
+  color: rgba(29, 45, 93, 0.8);
+}
+
+/* Text — yazı zamanı */
+.muraciet-form input,
+.muraciet-form textarea {
+  color: #1d2d5d;
+}
+
+/* Focus zamanı */
+.muraciet-form input:focus,
+.muraciet-form textarea:focus {
+  color: #1d2d5d;
+  border-color: #1d2d5d;
+}
+
+
+/* Bottom line: button + social icons */
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/* Sorğu göndər button */
+.submit-btn {
+  padding: 12px 60px;
+  border-radius: 15px;
+  min-width: 220px;
+  border: none;
+  background-color: #009736;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+
+  box-shadow: inset 0 0 6px 3px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.social-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #009736;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: inset 0 0 6px 3px rgba(0, 0, 0, 0.25);
+}
+
+.social-circle img {
+  max-width: 22px;
+  max-height: 22px;
+}
+
+/* Responsive – mobile üçün tək sütun */
+@media (max-width: 768px) {
+  .muraciet-form {
+    width: 90%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}

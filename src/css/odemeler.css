@@ -1,0 +1,130 @@
+/* -------- ÖDƏNİŞLƏR SECTION -------- */
+.odenisler-section {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.odenisler-wrapper {
+  width: 94%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.odenisler-title {
+  display: inline-block;
+  margin: 0 auto 35px auto;
+  padding: 12px 80px;
+  border-radius: 50px;
+  background: linear-gradient(
+    to bottom,
+    #009736 0%,
+    #009736 80%,
+    #1d2d5d 105%
+  );
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+/* -------- TAB SWITCH -------- */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  background: #fff;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+}
+
+.tab {
+  flex: 1;
+  padding: 6px 0;
+  border-radius: 40px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  transition: 0.3s;
+}
+
+.tab.active {
+  background: linear-gradient(180deg, #009735, #1d2d5d);
+  color: white;
+}
+
+
+/* -------- MAIN BOX -------- */
+.payment-box {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  border: 1px solid #009736;
+  padding: 40px 20px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+
+/* -------- LOGOS -------- */
+.logos-wrapper {
+  display: flex;
+  flex-wrap: wrap;       /* ⭐ responsive */
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo-card {
+  width: 260px;
+  max-width: 100%;       /* ⭐ mobil üçün ideal */
+  height: 150px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  transition: 0.25s ease;
+  border: 2px solid transparent;
+}
+
+.logo-card:hover {
+  border: 2px solid;
+  border-image: linear-gradient(110deg, #009736, #1d2d5d) 1;
+}
+
+.logo-card img {
+  max-height: 70px;
+  max-width: 70%;
+  object-fit: contain;
+}
+
+.small-logo {
+  max-height: 100px !important;
+}
+
+
+/* -------- DIVIDER -------- */
+.divider {
+  width: 2px;
+  height: 130px;
+  background: #1d2d5d;
+  opacity: 0.3;
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .divider {
+    display: block;
+  }
+}

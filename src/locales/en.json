@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "haqqimizda": "About us",
+    "tarifler": "Tariffs",
+    "xidmetler": "Services",
+    "eraziler": "Areas",
+    "odenisler": "Payments",
+    "muraciet": "Apply",
+    "melumat": "Information"
+  },
+
+  "hero": {
+    "slide1": {
+      "part1": "Fast internet",
+      "part2": "endless entertainment",
+      "title": "Fast internet, endless entertainment",
+      "line1": "Games, music — everything runs faster.",
+      "line2": "Join now!"
+    },
+    "slide2": {
+      "part1": "We serve our corporate clients across",
+      "part2": "the entire country, regardless of",
+      "part3": "location or distance.",
+      "title": "Service for corporate clients nationwide.",
+      "line1": "Seamless work with premium connection"
+    },
+    "slide3": {
+      "part1": "Enjoy every moment",
+      "part2": "to the fullest",
+      "title": "Enjoy every moment to the fullest",
+      "line1": "With 4K quality"
+    },
+    "slide4": {
+      "title": "Lag-free Speed",
+      "line1": "Always one step ahead in the game."
+    }
+  },
+
+  "ustunlukler": {
+  "line1_1": "Live support",
+  "line1_2": "24/7",
+
+  "line2_1": "Fiber-Optic",
+  "line2_2": "Technology",
+
+  "line3_1": "Stable speed",
+  "line3_2": "Seamless connection",
+
+  "line4_1": "Professional technical support"
+},
+
+  "about": {
+    "title": "About Us",
+    "text1": "Founded in <strong>2015</strong>, <strong>SPARKTEL</strong> is one of the leading providers of reliable and innovative <strong>internet services</strong> in Azerbaijan. Since the first day of operation, the company has been offering high-quality internet connectivity and modern communication solutions to both residential and corporate customers. <br /> The scope of <strong>SPARKTEL</strong> includes internet services, wireless communication, IP TV, data channels, IP telephony systems, and local network installation. Our team of professional engineers and technical specialists continuously improves their knowledge and skills to provide services based on the latest technologies. Our goal is to ensure customer comfort with stable connection, personalized service, 24/7 support, and modern equipment based on fiber-optic technology.",
+    "text2": "<strong>SPARKTEL</strong> always stands out with a strong technical team, reliable service, and continuous development."
+  },
+
+  "tariffs": {
+    "choose": "Choose your tariff",
+    "internet": "Internet",
+    "internetTv": "Internet + TV",
+
+    "econom": "Econom",
+    "classic": "Classic",
+    "extra": "Extra",
+    "vip": "Vip",
+
+    "speed45": "45 mbit/s",
+    "speed60": "60 mbit/s",
+    "speed100": "100 mbit/s",
+    "speed150": "150 mbit/s",
+
+    "speed45tv": "45 mbit/s + TV",
+    "speed60tv": "60 mbit/s + TV",
+    "speed100tv": "100 mbit/s + TV",
+    "speed150tv": "150 mbit/s + TV",
+
+    "fiber": "Fiber Optic",
+    "router": "Wi-Fi 5GHz router free",
+    "connectfree": "Free connection",
+
+    "join": "Join"
+  },
+
+  "services": {
+    "title": "Our Services",
+
+    "internet": {
+      "title": "Internet",
+      "desc": "High-reliability and broadband internet connection ensuring uninterrupted operation of your organization."
+    },
+
+    "iptv": {
+      "title": "IP TV",
+      "desc": "Interactive television service with HD quality.",
+      "link": "View channels →"
+    },
+
+    "wireless": {
+      "title": "Wireless Communication",
+      "part1": "Wireless",
+      "part2": "Communication",
+      "desc": "Secure and high-performance wireless network solutions tailored to infrastructure requirements."
+    },
+
+    "ipphone": {
+      "title": "IP Telephony",
+      "desc": "VoIP system based on SIP protocol; PBX management and integration features."
+    },
+
+    "localnet": {
+      "title": "Local Network Setup",
+      "part1": "Local network",
+      "part2": "setup",
+      "desc": "Local network infrastructure built according to the technical standards of the enterprise."
+    },
+
+    "datacanal": {
+      "title": "Data Channel",
+      "desc": "Secure data transmission channels over MPLS/VPLS or Metro Ethernet."
+    }
+  },
+
+  "iptv": {
+    "title": "IP TV Channels",
+    "back": "Back to Services",
+
+    "all": "All channels",
+    "az": "Azerbaijani channels",
+    "tr": "Turkish channels",
+    "foreign": "Foreign channels",
+    "sport": "Sports channels"
+  },
+
+  "payment": {
+    "title": "Payments",
+    "online": "Online",
+    "terminal": "Terminal"
+  },
+
+  "faq": {
+    "title": "Frequently asked questions",
+
+    "q1": "Is there any installation fee for Sparktel services?",
+    "a1": "There is no installation fee; the subscriber only pays the monthly fee of the selected tariff plan.",
+
+    "q2": "Can I change my tariff at any time?",
+    "a2": "Yes, you can change your tariff at any time by contacting the customer support line.",
+
+    "q3": "Which number can I call for technical support?",
+    "a3": "For technical support, you can contact our call center at 070-565-22-22 or 012-565-22-22.",
+
+    "q4": "What are the working hours of the call center?",
+    "a4": "Our call center operates 24/7.",
+
+    "q5": "Is the modem or router provided by the provider?",
+    "a5": "During installation, a modem is provided free of charge for the duration of use. Additional Wi-Fi extenders or mesh systems can be added upon request.",
+
+    "q6": "How can I pay my monthly subscription?",
+    "a6": "Payments can be made online via Hesab.az, FPay.az, ABB Mobile app, or through Emanat and ExpressPay terminals by entering your subscriber code.",
+
+    "q7": "What are the main advantages offered by Sparktel?",
+    "a7": "With over 10 years of experience, Sparktel provides stable, high-speed internet and reliable technical support for residential and business customers. The services include wireless connectivity, IP TV, IP telephony, data channels, and local network setup.",
+
+    "q8": "How can I become a Sparktel subscriber?",
+    "a8": "To become a subscriber, simply call our support line and provide your address.",
+
+    "q9": "In which areas are corporate services available?",
+    "a9": "Corporate services are available regardless of location. You can contact us directly to get service for your address.",
+
+    "q10": "What should I do if I experience internet issues?",
+    "a10": "If there is an interruption or problem, please contact our 24/7 technical support line for investigation."
+  },
+  
+  "contact": {
+    "title": "Fill in the fields below to send a request",
+    "newRequest": "New request",
+    "name": "Name",
+    "surname": "Surname",
+    "phone": "Phone number",
+    "message": "Your message",
+    "namePlaceholder": "Name",
+    "surnamePlaceholder": "Surname",
+    "messagePlaceholder": "Enter your message...",
+    "send": "Send request",
+    "redirectMessage": "Your request has been redirected to the email application."
+  },
+
+  "footer": {
+  "about": "About us",
+  "tariffs": "Tariffs",
+  "services": "Services",
+  "areas": "Areas",
+  "payments": "Payments",
+  "support": "Apply",
+  "address": "Alesker Gayibov 10Q, STN business center"
+},
+
+ "areas": {
+  "title": "Coverage Areas",
+  "ferdi": "Residential",
+  "korporativ": "Corporate",
+  "mtk": "Residences",
+
+  "ferdiList": [
+    "Bakikhanov",
+    "Sabunchu",
+    "Garachukhur",
+    "Surakhani",
+    "Amirjan",
+    "Mehdiabad",
+    "Khirdalan",
+    "Masazir",
+    "Goychay District"
+  ],
+
+  "korporativList": [
+    "Crescent Business Tower",
+    "AF Business House",
+    "JW Marriott Absheron",
+    "Yeni Hayat Plaza",
+    "Luxen Plaza",
+    "Time Plaza",
+    "STN Plaza",
+    "Winter Park",
+    "Teras Park",
+    "Land Mark",
+    "Crescent Mall",
+    "Ganjlik Mall",
+    "Deniz Mall",
+    "Aff Mall",
+    "28 Mall",
+    "Bakikhanov Mall",
+    "Khirdalan Mall",
+    "Aygun Mall",
+    "Metropark"
+  ],
+
+  "mtkList": [
+    "Bakixanov Residence OMID",
+    "Bakixanov Residence",
+    "28 Residence",
+    "Dolcha Palace",
+    "Garakhan MTK",
+    "NUR MTK",
+    "Blue City"
+  ],
+
+  "korporativNote": "Corporate services are provided regardless of location."
+}
+
+}
+

@@ -1,0 +1,223 @@
+/* Wrapper – fixed, həmişə yuxarıda */
+.navbar-wrapper {
+  position: fixed;
+  top: 1px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  padding: 12px 16px;
+  background: transparent;
+}
+
+/* Ağ kapsul navbar – radius 50, shadow */
+.navbar {
+  width: 100%;
+  max-width: 1180px;
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  background: #ffffff;
+  color: #1d2d5d;
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-logo img {
+  display: block;
+  height: 32px;
+  width: auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 24px;
+  font-size: 14px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #1d2d5d;
+  opacity: 0.85;
+  font-weight: 500;
+  transition: opacity 0.2s ease, transform 0.2s ease, color 0.2s ease,
+    text-shadow 0.2s ease;
+}
+
+/* Hover – parıltı + bir az qaldırmaq */
+.navbar-links a:hover {
+  opacity: 1;
+  color: #009736;
+  transform: translateY(-2px);
+  text-shadow: 0 0 6px rgba(0, 151, 54, 0.4);
+}
+
+/* Sağ blok */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-select-wrapper {
+  position: relative;
+}
+
+/* Yuxarıdakı trigger düymə */
+.lang-select-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 10px 6px 8px;
+  border-radius: 999px;
+  border: 1px solid #d0d5e2;
+  background: #ffffff;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.lang-trigger-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lang-select-trigger img {
+  display: block;
+  height: 18px;
+  width: auto;
+}
+
+.lang-select-trigger span {
+  font-size: 13px;
+  color: #1d2d5d;
+}
+
+.lang-trigger-arrow {
+  font-size: 12px;
+  color: #7a8497;
+  transition: transform 0.2s ease;
+}
+
+.lang-trigger-arrow.open {
+  transform: rotate(180deg);
+}
+
+/* Aşağı açılan menyu */
+.lang-select-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 200px;
+  padding: 6px 0;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+  z-index: 120;
+}
+
+/* Hər bir dil sətiri */
+.lang-option {
+  width: 100%;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  color: #1d2d5d;
+}
+
+.lang-option img {
+  display: block;
+  height: 18px;
+  width: auto;
+  border-radius: 3px;
+}
+
+.lang-option:hover {
+  background: #f4f6f9;
+}
+
+.lang-option.active {
+  background: #e6f4ec;
+  font-weight: 600;
+}
+
+/* Hamburger – mobil üçün */
+.navbar-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 28px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navbar-burger span {
+  display: block;
+  height: 2px;
+  border-radius: 999px;
+  background: #1d2d5d;
+}
+
+/* Mobil menyu */
+.navbar-mobile-menu {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 24px 24px;
+  background: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
+}
+
+.navbar-mobile-menu a {
+  text-decoration: none;
+  color: #1d2d5d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ============== RESPONSIVE ============== */
+
+@media (max-width: 900px) {
+  .navbar {
+    padding-inline: 20px;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-burger {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding-inline: 16px;
+  }
+
+  .navbar-logo img {
+    height: 28px;
+  }
+
+  .lang-select-trigger {
+    min-width: 130px;
+  }
+}

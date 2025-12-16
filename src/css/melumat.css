@@ -1,0 +1,112 @@
+.melumat-section {
+  margin-top: 50px;
+  padding: 30px 5px;
+  background: #1d2d5d;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.melumat-logo img {
+  width: 150px;
+  margin-bottom: 25px;
+} 
+
+/* TOP LINKS */
+.melumat-links {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.melumat-links button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.melumat-links button:hover {
+  color: #009736;
+}
+
+/* GREEN DIVIDER */
+.melumat-divider {
+  width: 85%;
+  height: 2px;
+ 	background: #fff;
+ 	margin: 20px auto 35px;
+} 
+
+/* CONTACT INFO */
+.melumat-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: 550;
+} 
+
+.melumat-phone,
+.melumat-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} 
+
+.melumat-phone img,
+.melumat-location img {
+  width: 15px;
+  height: 15px;
+}
+
+.melumat-phone-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+/* SOCIAL ICONS */
+.melumat-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+} 
+
+.melumat-social img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.melumat-social img:hover {
+  opacity: 0.7;
+} 
+
+/* COPYRIGHT */
+.melumat-copy {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+} 
+
+.melumat-phone a {
+  color: #ffffff;        /* ağ rəng */
+  text-decoration: none; /* alt xətt olmasın */
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.melumat-phone a:hover {
+  color: #009703; /* hover rəngi */
+}

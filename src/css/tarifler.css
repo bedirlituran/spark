@@ -1,0 +1,203 @@
+/* Ümumi section */
+.tariffs-section {
+  background: #f5f6f9;
+  padding: 60px 0 50px;
+}
+
+.tariffs-wrapper {
+  width: 94%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Gradient stil – hamıda eyni */
+:root {
+  --tariff-gradient: linear-gradient(
+to bottom,
+    #009736 0%,
+    #009736 70%,
+    #1d2d5d 110%
+  );
+}
+
+/* Başlıq pill */
+.tariffs-title-pill {
+  display: inline-block;
+  margin: 0 auto 40px;
+  padding: 14px 80px;
+  border-radius: 999px;
+  background: var(--tariff-gradient);
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.tariffs-title-pill {
+  display: inline-block;
+  margin: 0 auto 40px;
+  padding: 14px 80px;
+  border-radius: 999px;
+
+  /* Yeni gradient */
+  background: linear-gradient(
+    to bottom,
+    #009736 0%,
+    #009736 80%,
+    #1D2D5D 105%
+  );
+
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* Kartlar konteyneri */
+.tariffs-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* Kart */
+.tariff-card {
+  width: 260px;
+  background: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  padding: 26px 26px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Tariff adı */
+.tariff-name {
+  margin: 0 0 18px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #009736;
+}
+
+/* Kart daxili tab pill */
+.tariff-tabs-pill {
+  width: 100%;
+  height: 34px;
+  border-radius: 999px;
+  background: #dde4e8;
+  padding: 3px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.tariff-tab-btn {
+  flex: 1;
+  border: none;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+/* Aktiv – gradient */
+.tariff-tab-btn.active {
+  background: var(--tariff-gradient);
+  color: #ffffff;
+}
+
+/* Passiv – açıq boz + az opacity */
+.tariff-tab-btn.inactive {
+  background: transparent;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+/* Qiymət bloku */
+.tariff-price-block {
+  margin-bottom: 24px;
+}
+
+.tariff-price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.price-number {
+  font-size: 40px;
+  font-weight: 700;
+  color: #009736;
+}
+
+.price-currency {
+  font-size: 18px;
+  font-weight: 600;
+  color: #009736;
+}
+
+.tariff-speed {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1d2d5d;
+}
+
+/* Separator xətti */
+.tariff-separator {
+  width: 100%;
+  height: 1px;
+  background: #d6dde3;
+  margin: 10px 0 16px;
+}
+
+/* Xüsusiyyətlər */
+.tariff-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  text-align: left;
+  font-size: 14px;
+  color: #1d2d5d;
+}
+
+.tariff-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  transform: translateX(10px);
+}
+
+.feature-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #009736;
+}
+
+/* Qoşul düyməsi – default strok, klik/hover gradient */
+.tariff-join-btn {
+  margin-top: auto;
+  align-self: center;
+  padding: 10px 46px;
+  border-radius: 999px;
+  border: 1.8px solid #1d2d5d;
+  background: #ffffff;
+  color: #1d2d5d;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tariff-join-btn:hover,
+.tariff-join-btn:active {
+  background: var(--tariff-gradient);
+  color: #ffffff;
+  border: none;
+}

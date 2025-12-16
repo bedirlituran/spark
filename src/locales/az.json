@@ -1,0 +1,252 @@
+{
+  "nav": {
+    "haqqimizda": "Haqqımızda",
+    "tarifler": "Tariflər",
+    "xidmetler": "Xidmətlər",
+    "eraziler": "Ərazilər",
+    "odenisler": "Ödənişlər",
+    "muraciet": "Müraciət",
+    "melumat": "Məlumat"
+  },
+
+  "hero": {
+    "slide1": {
+      "part1": "Sürətli internet",
+      "part2": "sonsuz əyləncə",
+      "title": "Sürətli internet sonsuz əyləncə",
+      "line1": "Oyun, musiqi hamısı daha sürətli olsun deyə.",
+      "line2": "Elə indi qoşul!"
+    },
+    "slide2": {
+      "part1": "Korporativ müştərilərimizə ölkənin bütün",
+      "part2": "ərazisində, məkan və məsafədən",
+      "part3": "asılı olmayaraq xidmət göstəririk.",
+      "title": "Korporativ müştərilərimizə ölkənin bütün ərazisində xidmət göstəririk.",
+      "line1": "Premium bağlantı ilə fasiləsiz iş"
+    },
+    "slide3": {
+      "part1": "Hər anı",
+      "part2": "Doya-doya izlə",
+      "title": "Hər anı doya-doya izlə",
+      "line1": "4K keyfiyyət ilə"
+    },
+    "slide4": {
+      "title": "Gecikməsiz Sürət",
+      "line1": "Oyunda həmişə bir addım öndə ol."
+    }
+  },
+
+  "ustunlukler": {
+  "line1_1": "Canlı dəstək",
+  "line1_2": "7/24",
+
+  "line2_1": "Fiber-Optik",
+  "line2_2": "Texnologiya",
+
+  "line3_1": "Sabit sürət",
+  "line3_2": "Fasiləsiz bağlantı",
+
+  "line4_1": "Peşəkar texniki dəstək"
+},
+
+  "about": {
+    "title": "Haqqımızda",
+    "text1": "<strong>2015-ci ildə</strong> əsası qoyulan <strong>SPARKTEL</strong>, Azərbaycanda etibarlı və innovativ <strong>internet xidmətləri</strong> göstərən qabaqcıl provayderlərdən biridir. Fəaliyyətə başladığı ilk gündən şirkət həm ev, həm də korporativ müştərilərə yüksək keyfiyyətli internet bağlantısı və müasir rabitə həlləri təqdim edir. <br /> <strong>SPARKTEL</strong>-in fəaliyyət sahəsinə internet xidmətləri, simsiz rabitə, IP TV, data kanalları, IP telefon sistemi və lokal şəbəkələrin yığılması daxildir. Şirkətimizin peşəkar mühəndis və texniki heyəti daim öz bilik və bacarıqlarını təkmilləşdirərək, müştərilərə ən yeni texnologiyalar əsasında xidmət göstərir. Bizim məqsədimiz — sabit əlaqə, fərdi yanaşma, 7/24 canlı dəstək mərkəzi və fiber-optik texnologiyaya əsaslanan müasir avadanlıqlar vasitəsilə müştərilərimizin rahatlığını təmin etməkdir.",
+    "text2": "<strong>SPARKTEL</strong> hər zaman güclü texniki komanda, etibarlı xidmət və davamlı inkişaf prinsipləri ilə seçilir."
+  },
+
+  "tariffs": {
+    "choose": "Öz tarifini seç",
+    "internet": "İnternet",
+    "internetTv": "İnternet + TV",
+
+    "econom": "Econom",
+    "classic": "Classic",
+    "extra": "Extra",
+    "vip": "Vip",
+
+    "speed45": "45 mbit/s",
+    "speed60": "60 mbit/s",
+    "speed100": "100 mbit/s",
+    "speed150": "150 mbit/s",
+
+    "speed45tv": "45 mbit/s + TV",
+    "speed60tv": "60 mbit/s + TV",
+    "speed100tv": "100 mbit/s + TV",
+    "speed150tv": "150 mbit/s + TV",
+
+    "fiber": "Fiber Optik",
+    "router": "Wi-Fi 5GHz router pulsuz",
+    "connectfree": "Qoşulma pulsuz",
+
+    "join": "Qoşul"
+  },
+
+  "services": {
+    "title": "Xidmətlərimiz",
+
+    "internet": {
+      "title": "İnternet",
+      "desc": "Təşkilatın fasiləsiz fəaliyyətini təmin edən yüksək etibarlılıqlı və genişzolaqlı internet bağlantısı."
+    },
+
+    "iptv": {
+      "title": "IP TV",
+      "desc": "HD keyfiyyətli, interaktiv televiziya xidməti.",
+      "link": "Kanallara keçid →"
+    },
+
+    "wireless": {
+      "title": "Simsiz Rabitə",
+      "part1": "Simsiz Rabitə",
+      "part2": "",
+      "desc": "İnfrastruktur tələblərinə uyğun, təhlükəsiz və yüksək performanslı simsiz şəbəkə həlləri."
+    },
+
+    "ipphone": {
+      "title": "IP Telefoniyа",
+      "desc": "SIP protokolu əsasında çalışan VoIP sistemi; PBX idarəetməsi və inteqrasiya imkanları."
+    },
+
+    "localnet": {
+      "title": "Lokal şəbəkələrin yığılması",
+      "part1": "Lokal şəbəkələrin",
+      "part2": "yığılması",
+      "desc": "Müəssisənin texniki standartlarına uyğun lokal şəbəkə infrastrukturu."
+    },
+
+    "datacanal": {
+      "title": "Data Kanal",
+      "desc": "MPLS/VPLS və ya Metro Ethernet üzərindən təhlükəsiz data ötürmə kanalları."
+    }
+  },
+
+  "iptv": {
+    "title": "IP TV kanalları",
+    "back": "Xidmətlərə qayıt",
+
+    "all": "Bütün kanallar",
+    "az": "Azərbaycan kanalları",
+    "tr": "Türk kanalları",
+    "foreign": "Xarici kanallar",
+    "sport": "İdman kanalları"
+  },
+
+  "payment": {
+    "title": "Ödənişlər",
+    "online": "Online",
+    "terminal": "Terminal"
+  },
+
+  "faq": {
+    "title": "Ən çox verilən suallar",
+
+    "q1": "Sparktel xidmətlərinə qoşulma haqqı nə qədərdir?",
+    "a1": "Sparktel xidmətlərinə qoşulma zamanı qoşulma haqqı tələb edilmir; abunəçi yalnız seçdiyi tarifin aylıq məbləğini ödəyərək xidmətə qoşula bilər.",
+
+    "q2": "Modem və ya router provayder tərəfindən verilir?",
+    "a2": "Quraşdırma zamanı modem istifadə müddəti üçün ödənişsiz təqdim olunur; əlavə Wi-Fi gücləndirici və ya mesh sistemi istəyə uyğun əlavə edilir.",
+
+    "q3": "Tarifimi istənilən vaxt dəyişə bilərəm?",
+    "a3": "Bəli, tarifinizi istənilən vaxt dəyişə bilərsiniz — bunun üçün sadəcə şirkətin əlaqə nömrələri ilə əlaqə saxlayaraq müraciətinizi bildirməniz kifayətdir.",
+
+    "q4": "Çağrı mərkəzi hansı saatlarda fəaliyyət göstərir?",
+    "a4": "Çağrı mərkəzimiz 7/24 fasiləsiz fəaliyyət göstərir.",
+
+    "q5": "Texniki dəstək üçün hansı nömrələr ilə əlaqə saxlaya bilərəm?",
+    "a5": "Texniki dəstək üçün çağrı mərkəzimizin 070-565-22-22 və 012-565-22-22 nömrələri ilə əlaqə saxlaya bilərsiniz.",
+
+    "q6": "Aylıq abunə haqlarını hansı üsullarla ödəyə bilərəm?",
+    "a6": "Aylıq ödənişləri onlayn şəkildə Hesab.az və FPay.az saytları, həmçinin ABB Mobile tətbiqi vasitəsilə, eləcə də Emanat və ExpressPay terminallarında abunəçi kodunuzu qeyd edərək həyata keçirə bilərsiniz.",
+
+    "q7": "Sparktelin təqdim etdiyi əsas üstünlüklər hansılardır?",
+    "a7": "Sparktel 10 ildən artıq təcrübəsi ilə ev və biznes müştəriləri üçün stabil, sürətli internet və etibarlı texniki dəstək xidmətləri təqdim edir. Xidmətə simsiz bağlantı, IP TV, IP telefoniya, data kanalları və lokal şəbəkələrin qurulması daxildir.",
+
+    "q8": "Sparktel abunəçisi olmaq üçün nə etməliyəm?",
+    "a8": "Abunəçi olmaq üçün şirkətin əlaqə nömrələri ilə çağrı mərkəzinə müraciət edərək ünvanınızı bildirməyiniz kifayətdir.",
+
+    "q9": "Korporativ xidmətlər hansı ərazilərdə mövcuddur?",
+    "a9": "Korporativ bizneslər üçün xidmətlər ünvan və ərazidən asılı olmayaraq təqdim olunur — əlaqə saxlayaraq müraciət etməyiniz kifayətdir.",
+
+    "q10": "İnternetdə problem olduğu halda necə müraciət etməliyəm?",
+    "a10": "Kəsinti və ya problem yaranarsa, problemin araşdırılması üçün 7/24 texniki dəstək xəttimizlə əlaqə saxlayın."
+  },
+
+  "contact": {
+    "title": "Müraciət üçün aşağıdakı xanaları doldurun",
+    "newRequest": "Yeni müraciət",
+    "name": "Ad",
+    "surname": "Soyad",
+    "phone": "Əlaqə nömrəsi",
+    "message": "Müraciətiniz",
+    "namePlaceholder": "Ad",
+    "surnamePlaceholder": "Soyad",
+    "messagePlaceholder": "Mesajınızı daxil edin...",
+    "send": "Sorğu göndər",
+    "redirectMessage": "Sorğunuz email tətbiqinə yönləndirildi."
+  },
+
+  "footer": {
+  "about": "Haqqımızda",
+  "tariffs": "Tariflər",
+  "services": "Xidmətlər",
+  "areas": "Ərazilər",
+  "payments": "Ödənişlər",
+  "support": "Müraciət",
+  "address": "Ələsgər Qayıbov 10Q, STN business center"
+},
+
+"areas": {
+  "title": "Ərazilər",
+  "ferdi": "Fərdi",
+  "korporativ": "Korporativ",
+  "mtk": "MTK",
+
+  "ferdiList": [
+    "Bakixanov",
+    "Sabunçu",
+    "Qaraçuxur",
+    "Suraxanı",
+    "Əmircan",
+    "Mehdiabad",
+    "Xırdalan",
+    "Masazır",
+    "Göyçay rayonu"
+  ],
+
+  "korporativList": [
+    "Crescent Business Tower",
+    "AF Business House",
+    "JW Marriott Absheron",
+    "Yeni Həyat Plaza",
+    "Luxen Plaza",
+    "Time Plaza",
+    "STN Plaza",
+    "Winter Park",
+    "Teras Park",
+    "Land Mark",
+    "Crescent Mall",
+    "Gənclik Mall",
+    "Dəniz Mall",
+    "Aff Mall",
+    "28 Mall",
+    "Bakixanov Mall",
+    "Xırdalan Mall",
+    "Aygün Mall",
+    "Metropark"
+  ],
+
+  "mtkList": [
+    "Bakixanov Residence OMİD",
+    "Bakixanov Residence",
+    "28 Residence",
+    "Dolça Saray",
+    "Qaraxan MTK",
+    "NUR MTK",
+    "Blue city"
+  ],
+
+  "korporativNote": "Korporativ bizneslərə ərazisindən asılı olmayaraq xidmət təqdim olunur."
+}
+
+}

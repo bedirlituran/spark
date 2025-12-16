@@ -1,0 +1,31 @@
+.wp-fixed-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 28px;
+
+  width: auto;      
+  height: auto;      
+  background: none;  
+  border: none;
+  box-shadow: none;  /* kölgə də silindi */
+
+  z-index: 99999;
+  transition: transform 0.25s ease;
+}
+
+.wp-fixed-btn img {
+  width: 100px;     /* icon ölçüsü */
+  height: 100px;
+}
+
+.wp-fixed-btn:hover {
+  transform: scale(1.1);  /* hover zamanı böyüsün */
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .wp-fixed-btn img {
+    width: 55px;
+    height: 55px;
+  }
+}

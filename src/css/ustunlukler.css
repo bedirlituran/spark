@@ -1,0 +1,67 @@
+.ust-section {
+  background: #f5f6f9;          /* ümumi fonda sənin sayt fonuna uyğun */
+  padding: 10px 0 50px;
+}
+
+.ust-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;                    /* kartlar arası məsafə */
+}
+
+/* Kartlar */
+.ust-card {
+  width: 210px;
+  min-height: 180px;           
+  background: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 18px;
+}
+
+/* Iconların ümumi stili */
+.ust-icon {
+  height: 75px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 16px;
+  display: block;
+}
+
+/* Kart altındakı mətn */
+.ust-text {
+  margin: 0 16px 22px;
+  text-align: center;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: 18px;
+  font-weight: 300; /* Inter Light */
+  line-height: 1.3;
+  color: #1d2d5d;
+}
+
+.ust-text span {
+  display: block;
+}
+
+html[lang="ru"] .ust-text {
+  font-size: 16px;
+}
+
+html[lang="en"] .ust-text {
+  font-size: 17px;
+}
+
+/* YALNIZ 4-cü kart üçün mətnin 2 sətrə düşməsi */
+.card-4 .ust-text {
+  max-width: 160px;   /* qırılmanı məcbur edir */
+  margin-left: auto;
+  margin-right: auto;
+}
