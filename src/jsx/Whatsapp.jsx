@@ -1,6 +1,6 @@
 import "../css/Whatsappbutton.css";
 
-const WhatsappButton = () => {
+const Whatsapp = () => {
   return (
     <a 
       href="https://wa.me/994705652222"
@@ -13,4 +13,4 @@ const WhatsappButton = () => {
   );
 };
 
-export default WhatsappButton;
+export default Whatsapp;

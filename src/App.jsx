@@ -11,7 +11,7 @@ import Eraziler from "./jsx/Eraziler";
 import Odemeler from "./jsx/Odemeler";
 import Faq from "./jsx/Faq";
 import Melumat from "./jsx/Melumat";
-import WhatsappButton from "./jsx/WhatsappButton";
+import Whatsapp from "./jsx/Whatsapp";
 import Haqqimizida from "./jsx/Haqqimizda";
 
 
@@ -22,16 +22,16 @@ function App() {
       <Navbar />
 
       <main>
-        <Hero />
-        <Ustunlukler />
+        <Hero/>
+        <Ustunlukler/>
        <Haqqimizida/>
-        <Tarifler />
+        <Tarifler/>
         <Xidmetler/>
        <Eraziler/>
-        <Odemeler />
-        <Faq />
-        <Melumat />
-        <WhatsappButton />
+        <Odemeler/>
+        <Faq/>
+        <Melumat/>
+        <Whatsapp/>
       </main>
     </>
   );
